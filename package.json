@@ -1,14 +1,22 @@
 {
-	"name": "@rbxts/roblox-ts-package-template",
-	"version": "1.0.0",
+	"name": "@rbxts/easy-swim",
+	"version": "0.1.0-ts.0",
+	"description": "Easily calculate state and forces to make a humanoid character fake swim.",
 	"main": "dist/init.lua",
-	"keywords": [],
+	"keywords": ["swim", "humanoid", "calculate"],
 	"author": "kineticwallet",
 	"license": "MIT",
 	"types": "dist/index.d.ts",
 	"files": ["dist", "!**/*.tsbuildinfo"],
 	"publishConfig": {
 		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kineticwallet/roblox-ts-easy-swim"
+	},
+	"bugs": {
+		"url": "https://github.com/kineticwallet/roblox-ts-easy-swim/issues"
 	},
 	"packageManager": "pnpm@8.15.6+sha256.01c01eeb990e379b31ef19c03e9d06a14afa5250b82e81303f88721c99ff2e6f",
 	"devDependencies": {
